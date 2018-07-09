@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+# iDempire micro - highly modularized Java + Kotlin OSGi back-end compatible with iDempiere
 
-You can use the [editor on GitHub](https://github.com/iDempiere-micro/web/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+When building a new business system there is a lot of stuff you can reuse. Most of the well-known libraries give you reuse on the technological level: logging, users, access control etc.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We decided to raise the bar a little bit higher and give software developers a possibility to reuse business entities from one of the most advanced open source Enterprise Resource Planning (ERP) software - [iDempiere](http://www.idempiere.org/).
 
-### Markdown
+So instead of building everything from scratch you simply:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- choose the modules you need and include them in your Java or Kotlin OSGi code (you can start with our [empty Scaffold project](https://github.com/iDempiere-micro/Scaffold))
+- enhance the database with your custom tables and views
+- extend the standard iDempiere code if needed
+- use the resulting application as a REST server with builtin authentication, users & roles etc., all the functionality from iDempiere modules included plus your custom code
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/iDempiere-micro/web/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
