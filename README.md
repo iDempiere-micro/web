@@ -11,6 +11,7 @@ So instead of building everything from scratch you simply:
 - **extend the standard iDempiere code** if needed
 - use the resulting application as a **REST server** with builtin authentication, users & roles etc., all the functionality from iDempiere modules included plus your custom code
 
+[Read the documentation.](https://github.com/iDempiere-micro/Docs)
 
 ## Quick start for testing iDempiere micro using Docker
 
