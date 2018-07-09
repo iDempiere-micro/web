@@ -1,4 +1,4 @@
-# iDempire micro - highly modularized Java + Kotlin OSGi back-end compatible with iDempiere
+# iDempiere micro - highly modularized Java + Kotlin OSGi back-end compatible with iDempiere
 
 When building a new business system there is a lot of stuff you can reuse. Most of the well-known libraries give you reuse on the technological level: logging, users, access control etc.
 
