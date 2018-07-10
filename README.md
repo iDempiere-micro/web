@@ -18,5 +18,5 @@ So instead of building everything from scratch you simply:
 ## Quick start for testing iDempiere micro using Docker
 
 1. install [Docker](https://docs.docker.com/install/)
-2. if you are running PostgreSQL locally, do not forget to stop it (e.g. `sudo /etc/init.d/postgresql stop`)
+2. if you are running PostgreSQL locally, do not forget to stop it (e.g. `sudo /etc/init.d/postgresql stop`) OR use a different port (e.g. 5433) when starting the dockerized iDempiere PostgreSQL
 3. install iDempiere in Docker following e.g. [iDempiere Docker installation on Ubuntu 18.04](http://support.hsharp.software/display/IDEMPIERE/iDempiere+Docker+installation+on+Ubuntu+18.04) or the original [Installation Docker](http://wiki.idempiere.org/en/Category:Installation_Docker) guide
