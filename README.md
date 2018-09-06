@@ -1,4 +1,4 @@
-# iDempiere micro - highly modularized Java + Kotlin OSGi back-end compatible with iDempiere
+# iDempiere micro - highly modularized Java + Kotlin OSGi and Spring back-ends compatible with iDempiere
 
 [![Build Status](https://travis-ci.org/iDempiere-micro/idempiere-micro.svg?branch=master)](https://travis-ci.org/iDempiere-micro/idempiere-micro)
 
@@ -8,7 +8,7 @@ We decided to raise the bar a little bit higher and give software developers a p
 
 So instead of building everything from scratch you simply:
 
-- **choose the iDempiere modules** you need and include them in your Java or Kotlin OSGi code (you can start with our [empty Scaffold project](https://github.com/iDempiere-micro/Scaffold))
+- **choose the iDempiere modules** you need and include them in your Java or Kotlin OSGi code (you can start with our [empty Scaffold project](https://github.com/iDempiere-micro/Scaffold)) OR use the **complete Spring backend** (see the [source code of the iDempiere-micro Spring backend](https://github.com/iDempiere-micro/idempiere-micro-spring)).
 - enhance the database with your **custom tables and views**
 - **extend the standard iDempiere code** if needed
 - use the resulting application as a **REST server** with builtin authentication, users & roles etc., all the functionality from iDempiere modules included plus your custom code
@@ -20,3 +20,5 @@ So instead of building everything from scratch you simply:
 1. install [Docker](https://docs.docker.com/install/)
 2. follow the steps in [the Docker image for iDempiere Micro on Karaf repository](https://github.com/iDempiere-micro/idempiere-micro-docker#quick-start)
 
+## Quick start for testing iDempiere micro using Spring version deployed to dokku
+1. `wget http://idempiere-micro-spring.staging.hsharp.software//user/GardenUser/login/GardenUser`
