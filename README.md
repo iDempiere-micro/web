@@ -15,10 +15,10 @@ So instead of building everything from scratch you simply:
 
 [Read the documentation.](https://github.com/iDempiere-micro/Docs) [Clone the contributor's repository.](https://github.com/iDempiere-micro/idempiere-micro)
 
-## Quick start for testing iDempiere micro using Docker
+## Quick start for testing iDempiere micro OSGi using Docker
 
 1. install [Docker](https://docs.docker.com/install/)
 2. follow the steps in [the Docker image for iDempiere Micro on Karaf repository](https://github.com/iDempiere-micro/idempiere-micro-docker#quick-start)
 
-## Quick start for testing [iDempiere micro using Spring version](https://github.com/iDempiere-micro/idempiere-micro-spring) deployed to Dokku
+## Quick start for testing staging od [iDempiere micro using Spring version](https://github.com/iDempiere-micro/idempiere-micro-spring) deployed to Dokku
 1. `wget http://idempiere-micro-spring.staging.hsharp.software//user/GardenUser/login/GardenUser`
