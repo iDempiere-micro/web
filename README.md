@@ -1,6 +1,6 @@
 # iDempiere micro - highly modularized Java + Kotlin OSGi and Spring back-ends compatible with iDempiere
 
-[![Build Status](https://travis-ci.org/iDempiere-micro/idempiere-micro.svg?branch=master)](https://travis-ci.org/iDempiere-micro/idempiere-micro)
+[![Travis CI Build Status](https://travis-ci.org/iDempiere-micro/idempiere-micro-spring.svg?branch=master)](https://travis-ci.org/iDempiere-micro/idempiere-micro-spring) [![CircleCI](https://circleci.com/gh/iDempiere-micro/idempiere-micro-spring/tree/master.svg?style=svg)](https://circleci.com/gh/iDempiere-micro/idempiere-micro-spring/tree/master)
 
 When building a new business system there is a lot of stuff you can reuse. Most of the well-known libraries give you reuse on the technological level: logging, users, access control etc.
 
