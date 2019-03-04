@@ -1,10 +1,3 @@
----
-layout: post
-title: iDempiere micro
-redirect_to:
-  - https://idempiere-micro.github.io/
----
-
 # [iDempiere micro](https://idempiere-micro.github.io/) - open source headless serverless ERP and CRM microservices compatible with [iDempiere](http://www.idempiere.org/)
 
 When building a new business system there is a lot of stuff you can reuse. Most of the well-known libraries give you reuse on the technological level: logging, users, access control etc.
