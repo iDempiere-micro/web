@@ -20,3 +20,9 @@ You have an existing custom ERP system for your vertical e.g. financial, utiliti
 You are developing a brand new system. You do not want to reinvent the wheel and want to use a battle-tested libraries.
 
 Read more in [the documentation](https://github.com/iDempiere-micro/Docs).
+
+<script language="javascript">
+
+window.location.href = "https://idempiere-micro.github.io/"
+
+</script>
